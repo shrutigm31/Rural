@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Categories</title>
+</head>
+<style>
+	.card{
+		grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+     width: 40%;
+     display: inline-block;
+     margin: 2%;
+     border-radius: 0.5rem;
+  text-align: center;
+  border: 0.5rem solid var(--main);
+  box-shadow: 0.5rem 1rem 1.5rem rgba(0, 0, 0, 0.9);
+  padding: 5px;
+  margin-right: 94px;
+    }
+.image img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.title{
+    text-align: center;
+    padding: 10px;
+}
+button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+footer{
+    width: 100%;
+    background: #262626;
+    padding: 50px 50px;
+}
+.newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+}
+.newsletter div{
+    flex-basis:50%;
+}
+.ntext{
+    text-align:right;
+}
+.newsletter h2{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.newsletter p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.newsletter label{
+    position: relative;
+}
+.newsletter input{
+    padding: 20px;
+    width: 70%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+.newsletter button{
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    width: 30%;
+    bottom: -30px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius:0 8px 8px 0px; 
+}
+.f-contact{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.f-contact>div{
+    flex-basis: 50%;
+}
+.f-contact p{
+    line-height: 2em;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+}
+.f-contact p:hover{
+    color: white;
+}
+.f-contact a{
+    background: white;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    margin: 500px 5px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    line-height: 4em;
+}
+.f-contact a:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+</style>
+<body>
+	<center><a href="‌index.html"><h1>CATEGORIES</h1></center>
+                
+                <div class="card">
+            <div class="image">
+                <img id="image" src="hel.jpg" alt="image">
+        </div>
+        
+            <div class="button">
+                <center><button><a href="health.html"><i class="fa fa-home">HEALTH</i></a></button></center>
+        </div>
+    </div>
+    </div>
+                
+                <!--cards -->
+    <div class="card">
+        <div class="image">
+             <img id="image1" src="Edu.jpg" alt="image">
+        </div>
+            <div class="button">
+                <center><button><a href="Education.html"><i class="fa fa-briefcase">EDUACTION</i></a></button></center>
+        </div>
+        </div>
+                
+                <!--cards -->
+    <div class="card">
+        <div class="image">
+             <img id="image2" src="industry.jpg" alt="image">
+        </div>
+            <div class="button">
+                <center><button><a href="Industrial.html"><i class="fa fa-folder image">Industrial Development</i></a></button></center>
+        </div>
+        </div>
+                
+                <!--cards -->
+    <div class="card">
+        <div class="image">
+             <img id="image3" src="water5.jpg" alt="image">
+        </div>
+            <div class="button">
+                <center><button><a href="Cleanwater.html"><i class="fa fa-briefcase">Clean Water</i></a></button></center>
+        </div>
+        </div>
+</div>
+
+    
+    
+    
+
+</body>
+</html>    

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style>
+*
+{
+	padding: 0;
+	margin: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+.block
+{
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+ .block .img
+{
+	flex: 0 0 auto;
+	width: 200px;
+}
+
+.block .img img
+{
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+ .block .content
+{
+	flex: 0 0 auto;
+	width: calc(100% - 400px);
+	box-sizing: border-box;
+	align-self: center;
+}
+
+ .block .content h1
+{
+	font-weight: 700;
+	font-size: 22px;
+	color: blue;
+	margin-bottom: 10px;
+}
+
+#btn{
+	height: 50px;
+	width: 80px;
+	margin-left: 40em;
+	background-color: lightblue;
+	border-radius: 10px;
+}
+
+@media screen and (min-width: 1024px)
+{
+	 .block:nth-child(odd) .img
+	{
+		order: 1;
+	}
+
+	 .block:nth-child(even) .img
+	{
+		order: 2;
+	}
+
+	 .block:nth-child(odd) .content
+	{
+		order: 2;
+		padding-left: 30px;
+	}
+
+	 .block:nth-child(even) .content
+	{
+		order: 1;
+		padding-right: 30px;
+	}
+}
+.section a{
+	margin-top: 20px;
+	padding: 20px;
+}
+
+
+
+
+</style>
+<body>
+	<div class="section">
+		<center><a href="categories.html"><h1>EDUCATION</h1></center></a>
+	<div class="block">
+			
+
+			<div class="img">
+				<img src="Edu1.jpg" alt="">
+			</div>
+			<div class="content">
+			<p>Education opens up new opportunities to access new information and technology that enables an individual to make the right decisions in both personal and professional life. It allows children to understand policies, rights, laws from the young age which will be helpful in the future. As 65% of the population of India is situated in rural areas, emphasizing on rural education will help boost the overall economy. Furthermore, it will also help in reduce migration of people from rural areas to cites of employment and create new opportunities.
+					
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="img">
+				<img src="Edu3.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h5>Technology</h5> -->
+				<p>
+				      Education is important for everybody, whether they are learning new facts, skills, or trades. Having the opportunity to learn always benefits the individual. Over the past years, we have seen a focus on providing education to females all over the world, arguing that girls receive an education no less then men. However, if we take a step further, we can think about educating communities, specifically rural communities. What effects would education have if we were to educate a group of people?
+
+ 
+                                         
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="img">
+				<img src="Edu2.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h5>Agriculture</h5> -->
+				<p>
+					All these problems seem very difficult to overcome, however here are 4 practical ways to improve the quality of education for these rural area communities. Below are some authentic examples of implementation for consideration.In India, the right to education is a fundamental right which states that every citizen of India between the age of 6 to 14 years get free and compulsory education.
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="img">
+				<img src="Edu4.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h5>Clean Water</h5> -->
+				<p>
+					While every child in India has the Right to Education, in reality illiteracy is still high among the poorest communities in India. The reasons for this range from poor school infrastructure, lack of teachers to non-availability of functional schools in remote areas. 
+					In many communities, a school is no more than a classroom in which children of multiple ages study and at best they gain functional literacy. Born to poor parents who are illiterate, they do not get the home support to build on their learning.The classroom itself is dull and learning is repetitive and tedious for children in rural India. 
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="submit">
+  	<button type="button" id="btn">UPLOAD</button>
+</div>
+
+
+</body>
+</html>

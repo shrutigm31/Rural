@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style>
+	*
+{
+	padding: 0;
+	margin: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+.block
+{
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+ .block .img
+{
+	flex: 0 0 auto;
+	width: 200px;
+}
+
+.block .img img
+{
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+ .block .content
+{
+	flex: 0 0 auto;
+	width: calc(100% - 400px);
+	box-sizing: border-box;
+	align-self: center;
+}
+
+ .block .content h1
+{
+	font-weight: 700;
+	font-size: 22px;
+	color: blue;
+	margin-bottom: 10px;
+}
+#btn{
+	height: 50px;
+	width: 80px;
+	margin-left: 40em;
+	background-color: lightblue;
+	border-radius: 10px;
+}
+@media screen and (min-width: 1024px)
+{
+	 .block:nth-child(odd) .img
+	{
+		order: 1;
+	}
+
+	 .block:nth-child(even) .img
+	{
+		order: 2;
+	}
+
+	 .block:nth-child(odd) .content
+	{
+		order: 2;
+		padding-left: 30px;
+	}
+
+	 .block:nth-child(even) .content
+	{
+		order: 1;
+		padding-right: 30px;
+	}
+}
+.section a{
+	margin-top: 20px;
+	padding: 20px;
+}
+
+
+</style>
+<body>
+	<div class="section">
+	<center><a href="categories.html"><h1>Industrial Development</h1></center></a>
+	<div class="block">
+		
+			<div class="img">
+				<img src="Indu2.jpg" alt="">
+			</div>
+			<div class="content">
+				
+				<p>
+					In rural areas, the business operates towards different industries, which are agriculture, forest, and handloom industries. The people lived in different areas of rural India master in unique skills. Such as the rural people living in Kerala, they have professional skill in carving wood, the other rural people proficient in weaving carpet live in Kashmir, there are various skills from place to place is because of the factors of resources and traditions.[3] Besides, in India, the agricultural is vital for the economy because it accounts for 44.5% of GDP[4] from 1970 to 1971 and offers 68% of rural employment. However, the agriculture sector shrunk to 16.1% of GDP in 2009 while the proportion of non-agricultural industry achieved 86% of the GDP.[5]
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="img">
+				<img src="Indu3.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h5>Technology</h5> -->
+				<p>
+				    A rural enterprise refers to a company registered in the rural areas, was under the responsibility of the Department for Environment, Food and Rural Affairs.[6] The reasons for business operating in the rural area are favorable factors such as the appealing dwelling, fresh air, bigger extend headroom, cheaper rental fees, and harmonious relationships with labor. In India, there are still many people living in rural areas.[7] Furthermore, There are approximately 90% of employees are residents who work in an assigned area in the countryside and aim to increase the local economy. The purpose of increasing in rural economy is to make fewer people living under the poverty line.[7] The joint family structure is predominant as the strong kinship relationship in India.[8] Therefore, to assure that there are lucrative employment opportunities in rural India, the intervention of the plan is needed.[7] For example, the Mahatma Gandhi National Rural Employment Guarantee Act has been promulgated to increase the opportunities for wage employment.[9] 
+                                         
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="img">
+				<img src="Indu4.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h5>Agriculture</h5> -->
+				<p>
+					Rural industries today represent India’s diverse variety of culture, heritage, unique craft skills as well as artisans.
+					These industries not only contribute in generating the much needed rural non-farm employment but also hold thepotential to showcase India’s rich heritage globallyRural Industrialisation is therefore a concept that
+					encompasses facilitating avenues of employment in non-farm activities on a widely dispersed basis nearer to the place of living of the poor
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="img">
+				<img src="indu6.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h5>Clean Water</h5> -->
+				<p>
+					Recognising the weight of rural industries, Indian government is on a mission mode to promote rural industrialisation.While significant achievements have been witnessed, be it the unprecedented growth registered by Khadi and VillageIndustries Commission (KVIC) in establishing manufacturing and service units or the recent push for digitisation ofagro industries, the sector is not devoid of the roadblocks in realising its full potential
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="submit">
+  	<button type="button" id="btn">UPLOAD</button>
+</div>
+		
+
+</body>
+</html>

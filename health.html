@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Categories</title>
+</head>
+<style>
+*
+{
+	padding: 0;
+	margin: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+.block
+{
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+ .block .img
+{
+	flex: 0 0 auto;
+	width: 200px;
+}
+
+.block .img img
+{
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+ .block .content
+{
+	flex: 0 0 auto;
+	width: calc(100% - 400px);
+	box-sizing: border-box;
+	align-self: center;
+}
+
+ .block .content h5
+{
+	font-weight: 700;
+	font-size: 22px;
+	color: blue;
+	margin-bottom: 10px;
+}
+#btn{
+	height: 50px;
+	width: 80px;
+	margin-left: 40em;
+	background-color: lightblue;
+	border-radius: 10px;
+}
+
+@media screen and (min-width: 1024px)
+{
+	 .block:nth-child(odd) .img
+	{
+		order: 1;
+	}
+
+	 .block:nth-child(even) .img
+	{
+		order: 2;
+	}
+
+	 .block:nth-child(odd) .content
+	{
+		order: 2;
+		padding-left: 30px;
+	}
+
+	 .block:nth-child(even) .content
+	{
+		order: 1;
+		padding-right: 30px;
+	}
+}
+.section a{
+	margin-top: 20px;
+	padding: 20px;
+}
+
+
+</style>
+<body>
+	<div class="section">
+	<center><a href="categories.html"><h1>HEALTH</h1></center></a>
+		
+		<div class="block">
+			
+			<div class="img">
+				<img src="Health1.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h1>EDUCATION</h1> -->
+				<p>
+					Public health being a State subject, the primary responsibility to provide improved access to healthcare services is that of the State Governments. However, under National Health Mission (NHM) financial support is provided to State/UT Governments to strengthen their healthcare systems to provide better and easy access to healthcare services. As per Rural Health Statistics, 2014, there is a shortfall of 36346 Sub Health Centres (SCs), 6700 Primary Health Centres (PHCs), and 2350 Community Health Centres (CHCs) against the specified population norm.
+					As per Rural Health Statistics Bulletin (RHS) 2014, a total of 2225 (8.89%) Primary Health Centres (PHCs) are functioning without doctor, 9825 (39.26%) PHCs without Lab Technician and 5739 (22.94%) PHCs without a pharmacist in the country.
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="img">
+				<img src="Health3.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h5>Technology</h5> -->
+				<p>
+				     Health is not everything but everything else is nothing without health. “In the beginning, there was desire which was the first seed of mind,” says Rig-Veda, which probably is the earliest piece of literature known to mankind. Since antiquity India being the first state to give its citizens national health care as a uniform right. However in the present scenario Indian rural health care faces a crisis unmatched to any other social sector. Nearly 86% of all the medical visit in India are made by ruralites with majority still travelling more than 100 km to avail health care facility of which 70-80% is born out of pocket landing them in poverty.[1]   
+                                         
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="img">
+				<img src="Health2.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h5>Agriculture</h5> -->
+				<p>
+					India has made significant advances in health of its populations over more than a decade, reducing the gap between rural and urban areas and between the rich and the poor. Huge disparities, however, still remain, and access to healthcare in rural areas remains a huge challenge. A one-day National Consultation, nested within the World Rural Health Conference, was held to share learnings from experiences and evidence of rural primary healthcare within India and from across the world, to identify elements that may guide improvements in healthcare in rural India. From discussions, this article summarizes the evidence on what works for rural primary care, and then provides recommendations for strengthening healthcare in rural India.
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="img">
+				<img src="Health4.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h5>Clean Water</h5> -->
+				<p>
+					India has made significant advances in health of its populations over more than a decade, reducing the gap between rural and urban areas and between the rich and the poor. Huge disparities, however, still remain, and access to healthcare in rural areas still remains a huge challenge. There is a growing recognition that India needs to build a strong comprehensive primary healthcare system to accomplish any further advancements in health status of the populations and to reduce these disparities.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="submit">
+  	<button type="button" id="btn">UPLOAD</button>
+</div>
+		
+		
+	</div>
+</body>         

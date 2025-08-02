@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style>
+	*
+{
+	padding: 0;
+	margin: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+.block
+{
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+ .block .img
+{
+	flex: 0 0 auto;
+	width: 200px;
+}
+
+.block .img img
+{
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+ .block .content
+{
+	flex: 0 0 auto;
+	width: calc(100% - 400px);
+	box-sizing: border-box;
+	align-self: center;
+}
+
+ .block .content h1
+{
+	font-weight: 700;
+	font-size: 22px;
+	color: blue;
+	margin-bottom: 10px;
+}
+#btn{
+	height: 50px;
+	width: 80px;
+	margin-left: 40em;
+	background-color: lightblue;
+	border-radius: 10px;
+}
+
+@media screen and (min-width: 1024px)
+{
+	 .block:nth-child(odd) .img
+	{
+		order: 1;
+	}
+
+	 .block:nth-child(even) .img
+	{
+		order: 2;
+	}
+
+	 .block:nth-child(odd) .content
+	{
+		order: 2;
+		padding-left: 30px;
+	}
+
+	 .block:nth-child(even) .content
+	{
+		order: 1;
+		padding-right: 30px;
+	}
+}
+.section a{
+	margin-top: 20px;
+	padding: 20px;
+}
+
+
+</style>
+<body>
+	<div class="section">
+	<center><a href="categories.html"><h1>Clean Water</h1></center></a>
+	<div class="block">
+		
+			<div class="img">
+				<img src="water3.jpg" alt="">
+			</div>
+			<div class="content">
+				
+				<p>
+					Rural water supplies have traditionally been overshadowed by urban ones. That must now change, as the Sustainable Development Goals calls for water for all. The objective of the paper is to assess the current access to and the perceived water quality in villages with various types of water supply. The survey was carried out during July–December 2017 in four villages in central Kazakhstan. Overall, 1369 randomly selected households were interviewed. The results revealed that even though villagers were provided with tap water, significant numbers used alternative sources. There were three reasons for this situation: residents’ doubts regarding the tap water quality
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="img">
+				<img src="water2.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h5>Technology</h5> -->
+				<p>
+				     Tuse of other sources out of habit; and availability of cheaper or free sources. Another problem concerned the volume of water consumption, which dropped sharply with decreased quality or inconvenience of sources used by households. Moreover, people gave a poor estimate to the quality and reliability of water from wells, open sources and tankered water. The paper suggests that as well decentralization of water management as monitoring of both water supply and water use are essential measures. There must be a tailor-made approach to each village for achieving the Sustainable Development Goal of providing rural Kazakhstan with safe water.  
+                                         
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="img">
+				<img src="water1.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h5>Agriculture</h5> -->
+				<p>
+					Collecting water used to be a huge problem,' recalled Ambika Vijaykumar, 58, mother of two in Palakkad district. '27 families depended on just one public tap for water. And in summer, this was available only at night.' Ambika’s constant travails in collecting water spurred her on to play a pivotal role in mobilizing 62 households to build their own water supply system, raising money, buying land for an open well and a pump house, and building an overhead tank to store water in.  "
+			</div>
+		</div>
+		<div class="block">
+			<div class="img">
+				<img src="water4.jpg" alt="">
+			</div>
+			<div class="content">
+				<!-- <h5>Clean Water</h5> -->
+				<p>
+					Rural water supplies have traditionally been overshadowed by urban ones. That must now change, as the Sustainable Development Goals calls for water for all. The objective of the paper is to assess the current access to and the perceived water quality in villages with various types of water supply. The survey was carried out during July–December 2017 in four villages in central Kazakhstan. Overall, 1369 randomly selected households were interviewed. The results revealed that even though villagers were provided with tap water, significant numbers used alternative sources. There were three reasons for this situation: residents’ doubts regarding the tap water quality; use of other sources out of habit; and availability of cheaper or free sources. Another problem concerned the volume of water consumption, which dropped sharply with decreased quality or inconvenience of sources used by households.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="submit">
+  	<button type="button" id="btn">UPLOAD</button>
+</div>
+		
+
+</body>
+</html>
